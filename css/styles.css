@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  width: 1440px;
+  height: 3300px;
 }
 a {
   text-decoration: none;
@@ -15,30 +17,32 @@ ol {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  font-height: 1, 17;
-  letter-spasing: 0, 03em;
+  line-height: 1, 17;
+  letter-spacing: 0, 03em;
   text-transform: uppercase;
 }
 .logo-part {
-  color: #2f2f42;
+  color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .nav-link {
-  color: #2f2f42;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  font-height: 1, 5;
-  letter-spasing: 0, 02em;
+  line-height: 1, 5;
+  letter-spacing: 0, 02em;
 }
 
-.nav-link: hover,
-.nav-link: focus {
+.nav-link hover {
+  color: #404bbf;
+}
+.nav-link focus {
   color: #404bbf;
 }
 
@@ -49,21 +53,23 @@ ol {
   color: #434455;
   font-size: 16px;
   line-height: 1, 5;
-  letter-spasing: 0, 02em;
+  letter-spacing: 0, 02em;
 }
 
-.address-link: hover,
-.address-link: focus {
+.address-link hover {
+  color: #404bbf;
+}
+.address-link focus {
   color: #404bbf;
 }
 
-.section .button-box {
+.section-button-box {
   width: 1440px;
   height: 600px;
   background: var(--navy-blue);
 }
 
-.section .button-link {
+.section-button-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -71,7 +77,7 @@ ol {
   letter-spacing: 0.04em;
   color: var(--white);
 }
-.section .discr-box {
+.section-discr-box {
   margin-top: 120px;
   margin: 120px;
   margin-left: 156px;
@@ -90,7 +96,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.discr-text .p {
+.discr-text-p {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -111,13 +117,13 @@ ol {
   margin-top: 120px;
 }
 
-.ul .imeges {
+.ul-images {
   width: 264px;
   height: 260px;
   background: url("path_to_image");
 }
 
-.ul .h3 {
+.ul-images-h3 {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -128,7 +134,7 @@ ol {
   color: var(--navy-blue);
 }
 
-.ul .p {
+.ul-images-p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -139,7 +145,7 @@ ol {
   color: var(--slate);
 }
 
-.apps .h2 {
+.apps-h2 {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
@@ -150,13 +156,13 @@ ol {
   color: var(--navy-blue);
 }
 
-.apps .ul .img {
+.apps-ul-img {
   width: 360px;
   height: 300px;
   background: url("path_to_image");
 }
 
-.apps .ul .h3 {
+.apps-ul-h3 {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -166,7 +172,7 @@ ol {
   color: var(--navy-blue);
 }
 
-.apps .ul .button-type {
+.apps-ul .p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -181,7 +187,7 @@ ol {
   height: 312px;
   background: var(--navy-blue);
 }
-.footer .a {
+.footer-a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -191,7 +197,7 @@ ol {
   height: 24px;
 }
 
-.footer .p {
+.footer-p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;

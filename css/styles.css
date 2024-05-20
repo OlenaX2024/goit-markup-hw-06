@@ -62,9 +62,11 @@ ol {
 .section-button-box {
   width: 1440px;
   height: 600px;
-  background: var(--navy-blue);
+  background-color: #4d5ae5;
   text-align: center;
+  cursor: pointer;
 }
+
 .section-button-title .h1 {
   font-family: var(--font-family);
   font-weight: 700;
@@ -73,7 +75,8 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  background: #2e2f42;
+  color: #ffffff;
 }
 
 .section-button-link {
@@ -82,7 +85,13 @@ ol {
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #ffffff;
+}
+.section-button-title:hover {
+  background-color: #404bbf;
+}
+.section-button-title:focus {
+  background-color: #404bbf;
 }
 .section-discr-box {
   margin-top: 120px;
@@ -95,13 +104,13 @@ ol {
   width: 1128px;
   height: 104px;
 }
-.h3 {
+.section-discr-box-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .discr-text-p {
   display: flex;
@@ -157,16 +166,17 @@ ol {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  line-height: 1, 1;
-  letter-spacing: 0.02em;
+  line-height: 1.11;
+  letter-spacing: 0.02;
   text-align: center;
-  color: var(--navy-blue);
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .apps-ul-img {
   width: 360px;
   height: 300px;
-  background: url("path_to_image");
+  background-color: #f4f4fd;
 }
 
 .apps-ul-h3 {
@@ -176,7 +186,9 @@ ol {
   line-height: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  text-transform: capitalize;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .apps-ul .p {
@@ -186,13 +198,13 @@ ol {
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 .footer {
   width: 1440px;
   height: 312px;
-  background: var(--navy-blue);
+  background: #2e2f42;
 }
 .footer-a {
   display: flex;
@@ -202,14 +214,33 @@ ol {
   gap: 0px;
   width: 115px;
   height: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.footer-a-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0, 03em;
+  text-transform: uppercase;
+}
+.footer-a-logo-part {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color: #f4f4fd;
 }

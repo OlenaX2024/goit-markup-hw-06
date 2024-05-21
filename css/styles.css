@@ -11,22 +11,22 @@ ol {
   list-style: none;
 }
 .logo {
-  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-part {
-  color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -73,7 +73,7 @@ ol {
 }
 
 .button-link:hover,
-.section-button-link:focus {
+.button-link:focus {
   background-color: #404bbf;
 }
 .button-link {
@@ -83,6 +83,7 @@ ol {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .discr-title {
@@ -93,7 +94,7 @@ ol {
   color: #2e2f42;
 }
 
-.discr-p {
+.discr-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -101,7 +102,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-team {
+.team {
   background-color: #f4f4fd;
 }
 .team-title {
@@ -127,7 +128,7 @@ ol {
   color: #2e2f42;
 }
 
-.team-p {
+.team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -138,7 +139,7 @@ ol {
 .apps-service {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;

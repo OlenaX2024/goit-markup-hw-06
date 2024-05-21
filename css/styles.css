@@ -73,7 +73,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   background: #2e2f42;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .section-button-link:hover,
@@ -100,13 +100,13 @@ ol {
 }
 
 .section-discr-p {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 24px; 
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .team-title {
@@ -230,4 +230,4 @@ color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}-
+}

@@ -62,12 +62,11 @@ ol {
   cursor: pointer;
   width: 1470px;
   height: 600px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .section-button-title {
   font-size: 56px;
-  line-height: 60px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -81,15 +80,13 @@ ol {
 .section-button-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
-  background-color: #4d5ae5;
 }
 
-.section-discr-h3 {
+.section-discr-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -101,7 +98,6 @@ ol {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -110,10 +106,7 @@ ol {
   background-color: #f4f4fd;
 }
 .section-team-title {
-  font-family: var(--font-family);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -123,10 +116,10 @@ ol {
 .section-team-foto {
   width: 264px;
   height: 260px;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
-.section-team-h3 {
+.section-team-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -143,7 +136,7 @@ ol {
   color: #434455;
 }
 
-.section-apps-h2 {
+.section-apps-service {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02;
@@ -158,7 +151,7 @@ ol {
   background-color: #f4f4fd;
 }
 
-.section-apps-h3 {
+.section-apps-title {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -168,45 +161,34 @@ ol {
   color: #2e2f42;
 }
 
-.section-apps-p {
+.section-apps-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.footer {
-  background: #2e2f42;
-}
-.footer-logo-link {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
+.footer-logo {
   width: 115px;
   height: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   background-color: #2e2f42;
 }
-.footer-a-logo {
-  color: #4d5ae5;
+.footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
-.footer-a-logo-part {
-  color: #f4f4fd;
+.footer-logo-part {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-logo-text {

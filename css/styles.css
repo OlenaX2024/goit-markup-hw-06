@@ -79,15 +79,18 @@ ol {
 .section-button-link:hover,
 .section-button-link:focus {
   background-color: #404bbf;
+}
+.section-button-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #404bbf;
 }
 
-.section-discr-box-h3 {
+.section-discr-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;

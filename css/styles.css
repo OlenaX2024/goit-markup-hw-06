@@ -20,7 +20,13 @@ ol {
   color: #4d5ae5;
 }
 .logo-part {
-  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .nav-link {
@@ -104,6 +110,7 @@ ol {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .team-img {
   background-color: #ffffff;

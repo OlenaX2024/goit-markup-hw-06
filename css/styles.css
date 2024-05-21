@@ -22,7 +22,6 @@ ol {
 .logo-part {
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -95,8 +94,6 @@ ol {
 }
 
 .discr-text {
-  font-family: var(--font-family);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -114,8 +111,6 @@ ol {
   color: #2e2f42;
 }
 .team-foto {
-  width: 264px;
-  height: 260px;
   background-color: #ffffff;
 }
 

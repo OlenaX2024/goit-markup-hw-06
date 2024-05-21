@@ -15,8 +15,8 @@ ol {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1, 17;
-  letter-spacing: 0, 03em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-part {
@@ -33,8 +33,8 @@ ol {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 5;
-  letter-spacing: 0, 02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -48,8 +48,8 @@ ol {
 .address-link {
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 0, 02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -57,13 +57,14 @@ ol {
   color: #404bbf;
 }
 
-.section-button-box {
+.section {
   background-color: #4d5ae5;
   text-align: center;
   cursor: pointer;
+  width: 1470px;
+  height: 600px;
 }
-
-.section-button-title .h1 {
+.section-h1 {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
@@ -75,7 +76,9 @@ ol {
   color: #ffffff;
 }
 
-.section-button-link {
+.section-button-link:hover,
+.section-button-link:focus {
+  background-color: #404bbf;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -83,10 +86,7 @@ ol {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.section-button-title:hover,
-.section-button-title:focus {
-  background-color: #404bbf;
-}
+
 .section-discr-box-h3 {
   font-weight: 500;
   font-size: 20px;

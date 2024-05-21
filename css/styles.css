@@ -30,11 +30,11 @@ ol {
 }
 
 .nav-link {
-  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .nav-link:hover,
@@ -57,7 +57,7 @@ ol {
   color: #404bbf;
 }
 
-.section-button {
+.button {
   text-align: center;
   width: 1470px;
   height: 600px;

@@ -15,7 +15,7 @@ h6 {
   margin: 0;
 }
 .container {
-  width: 1158;
+  width: 1158px;
 }
 .img {
   display: block;
@@ -104,6 +104,8 @@ ol {
 .section-button {
   text-align: center;
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .button-title {
@@ -115,6 +117,7 @@ ol {
   margin-left: 635;
   margin-bottom: 188;
   margin-right: 636;
+  max-width: 496px;
 }
 
 .button-link:hover,
@@ -126,6 +129,11 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -138,6 +146,21 @@ ol {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.description-main {
+}
+
+.description-h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .description-text {
@@ -219,6 +242,8 @@ ol {
 }
 .footer-logo {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -227,6 +252,8 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
 }
 .logo-part {

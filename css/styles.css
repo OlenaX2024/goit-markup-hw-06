@@ -278,6 +278,7 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 .payment-cash {
   padding: 32px 16px;
@@ -289,21 +290,25 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 .taxi-service {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 .screen-illustration {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 .courses-online {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 
 .apps-picture {

@@ -21,7 +21,9 @@ h6 {
   display: block;
   max-width: 100%;
 }
-
+.img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -45,6 +47,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  margin-right: 76px;
 }
 .logo-navigation {
   display: flex;

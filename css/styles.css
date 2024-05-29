@@ -105,6 +105,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 24 40 24 332;
 }
 
 .address-link:hover,
@@ -124,6 +125,8 @@ ol {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: auto;
   color: #ffffff;
 }
 
@@ -208,23 +211,15 @@ ol {
 }
 .first-name {
   padding: 32px 0;
-  margin-bottom: 8px;
-  text-align: center;
 }
 .second-name {
   padding: 32px 0;
-  margin-bottom: 8px;
-  text-align: center;
 }
 .third-name {
   padding: 32px 0;
-  margin-bottom: 8px;
-  text-align: center;
 }
 .fourth-name {
   padding: 32px 0;
-  margin-bottom: 8px;
-  text-align: center;
 }
 .information .team-text {
   text-align: center;
@@ -288,6 +283,7 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
 .meditation-app {
   padding: 32px 16px;

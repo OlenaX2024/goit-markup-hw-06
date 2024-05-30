@@ -201,9 +201,8 @@ ol {
   display: flex;
   gap: 24px;
 }
-.team-wraper {
+.first-name {
   padding: 32px 0;
-  flex-wrap: wrap;
 }
 .second-name {
   padding: 32px 0;

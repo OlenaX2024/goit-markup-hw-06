@@ -257,8 +257,11 @@ background-size: cover;
   margin: auto;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
-
+.first-name-one {
+  padding: 32px 0;
+}
 .team-title {
   font-weight: 500;
   font-size: 20px;
@@ -274,8 +277,28 @@ background-size: cover;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
+  color: #434455; 
 }
+.team-link-list { 
+  justify-content: center; 
+  gap: 24px;
+} 
+.team-social {
+  width: 40px;
+  height: 40px; 
+
+}
+.team-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+.team-link :hover,
+.team-link :focus { 
+  background-color: #404bbf;
+} 
 .section-apps {
   padding-top: 120px;
   padding-bottom: 120px;

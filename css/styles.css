@@ -338,7 +338,7 @@ background-size: cover;
 .picture {
   background: url("path_to_image");
 }
-.picture-apps {
+.picture-apps-box {
   position: relative; 
   overflow: hidden;
 }

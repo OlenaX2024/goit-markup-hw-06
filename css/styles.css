@@ -338,7 +338,7 @@ background-size: cover;
 .picture {
   background: url("path_to_image");
 }
-.picture-apps-box {
+.apps-box {
   position: relative; 
   overflow: hidden;
 }
@@ -356,6 +356,9 @@ background-size: cover;
   transform: translateY(100%);
   transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.picture-text {
+  transform: translateY(0%);
 }
 .apps-text:hover {
   transform: translateY(0%);

@@ -571,3 +571,6 @@ background-size: cover;
   background-color: #404bbf; 
   border: none; 
 }
+.send-info {
+  margin-left: 16px;
+}

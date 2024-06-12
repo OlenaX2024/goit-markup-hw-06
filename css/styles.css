@@ -638,3 +638,15 @@ background-size: cover;
 ..coment-text:focus {
   border-color: #4D5AE5; 
 }
+.check-container {
+  margin-bottom: 24px; 
+}
+.input-check {
+  visually-hidden; 
+}
+.label-privacy {
+  font-size: 12px; 
+  line-height: 1.17;
+  letter-spacing: 0.04em; 
+  color: #8e8f99;
+}

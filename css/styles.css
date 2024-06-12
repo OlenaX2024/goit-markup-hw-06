@@ -479,6 +479,7 @@ background-size: cover;
 .footer-social-icon {
   fill: #f4f4fd;
 }
+
 .footer-information {
   margin-bottom: 16px; 
   font-weight: 500;
@@ -504,6 +505,9 @@ background-size: cover;
   border-radius: 4px;
   color: #ffffff; 
 
+}
+.form-input::placeholder {
+  color: #ffffff;
 }
 .form-label {
   gap: 24px;

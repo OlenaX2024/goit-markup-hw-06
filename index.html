@@ -514,9 +514,15 @@
     <div class="footer-email">
       <p class="footer-information">Subscribe</p>
       <form class="footer-form">
-        <label class="form-label">
-          <input type="email"  class="form-input" name="mail" placeholder="E-mail"/>
-        </label>
+        <label for="footer-label" class="form-label"></label>
+          <input 
+            type="email"
+            id="footer-label"
+            name="mail"
+            class="form-input" 
+            placeholder="E-mail"
+            />
+
         <button class="form-button" type="submit">
           Subscribe
           <svg 
@@ -530,6 +536,7 @@
     </div>
   </div>
   </footer> 
+
   <div class="backdrop">
     <div class="window">
       <button class="window-button" type="button">
@@ -543,56 +550,89 @@
       <p class="window-text">Leave your contacts and we will call you back</p>
       <form class="form-window">
         <div class="contact-form">
-          <label class="contact-icon" for="user-name">
+          <label class="contact-icon" for="user-name" id="user-name" 
+          type="text">
             Name
           </label>
           <div class="input-icon">
-            <input name="user-name" id="user-name" type="text"/>
-            <svg class="pfone-form"
+            <input 
+            class="input-svg" 
+            name="user-name" 
+            id="user-name" 
+            type="text"/>
+            <svg 
+            class="phone-form"
             width="18"
             height="24">
             <use href="./images/icons.svg#icon-contact"></use>
           </svg>
           </div>
           <div class="contact-form">
-            <label class="contact-icon" for="user-name">
+            <label class="contact-icon" for="user-name" type="text" id="user-phone">
               Phone
             </label>
             <div class="input-icon">
-              <input name="user-name" id="user-name"  type="text" />
-            <svg class="phone-form"
+              <input 
+              class="input-svg"
+              type="text"
+              id="user-phone"
+              name="user-name"  />
+            <svg 
+            class="phone-form"
             width="18"
             height="24">
             <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
           <div class="contact-form">
-            <label class="contact-icon" for="user-name">
+            <label class="contact-icon" for="user-name" id="user-mail"  
+            type="text">
             Email
             </label>
             <div class="input-icon">
-              <input name="user-name" id="user-name"  type="text" />
-            <svg class="phone-form"
+              <input 
+              class="input-svg"
+              name="user-name"
+              id="user-mail"  
+              type="text" />
+            <svg 
+            class="phone-form"
             width="18"
             height="24">
             <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
           <div class="contact-form">
-            <label class="contact-icon" for="user-name">
+            <label class="contact-icon" for="user-name" id="user-comment">
               Comment
-              <textarea class="coment-text" id="user-comment"  name="user-comment" placeholder="Text input"></textarea>
+              <textarea 
+              class="coment-text" 
+              id="user-comment"  
+              name="user-comment" 
+              placeholder="Text input">
+            </textarea>
             </label>
             <div class="input-icon">
-              <input name="user-name" id="user-comment"  type="text" />
-            <svg class="phone-form"
+              <input 
+              class="input-svg"
+              name="user-name" 
+              id="user-comment"  
+              type="text" />
+            <svg 
+            class="phone-form"
             width="18"
             height="24">
             <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
           <div class="check-container">
-            <input class="input-check" id="user-privacy" type="checkbox"  value="true" name="user-privacy"  checked />
+            <input 
+            class="input-check" 
+            id="user-privacy" 
+            type="checkbox"  
+            value="true" 
+            name="user-privacy" 
+            checked />
             <label class="label-privacy" for="user-privacy" > 
             I accept the terms and conditions of the> <span class="label-part"> Privacy Policy</span>
               <svg class="check-icon"

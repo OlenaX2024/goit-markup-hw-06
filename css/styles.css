@@ -18,7 +18,9 @@ h6 {
 images {
   display: block;
 }
-
+img {
+  display: block;
+}
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -416,7 +418,7 @@ background-size: cover;
   margin-right: 120px;
 }
 .footer-logo-box {
-  margin-right: 120px 
+  margin-right: 120px; 
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -570,7 +572,7 @@ background-size: cover;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.window-button:hover
+.window-button:hover,
 .window-button:focus {
   background-color: #404bbf; 
   border: none; 

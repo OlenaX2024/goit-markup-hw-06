@@ -456,7 +456,9 @@ background-size: cover;
   color: #FFFFFF;
   margin-bottom: 16px; 
 }
-
+.container-footer-social {
+  display: flex;
+}
 .footer-social-link {
   display: flex; 
   gap: 16px; 

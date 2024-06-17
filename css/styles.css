@@ -588,7 +588,8 @@ background-size: cover;
   fill: #ffffff;
 }
 .send-info {
-  margin-left: 16px;
+  margin-left: 16px; 
+  fill: #fff;
 }
 .icon-window {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -685,8 +686,8 @@ background-size: cover;
   fill: transparent; 
 }
 .label-part {
-  fill: #F4F4FD; 
-  background-color: #404bbf; 
+  fill: #4D5AE5; 
+  background-color: #F4F4FD; 
   border: none; 
 }
 .privacy-link {

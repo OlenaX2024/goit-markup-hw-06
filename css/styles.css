@@ -456,9 +456,7 @@ background-size: cover;
   color: #FFFFFF;
   margin-bottom: 16px; 
 }
-.container-footer-social {
-  display: flex;
-}
+
 .footer-social-link {
   display: flex; 
   gap: 16px; 
@@ -536,6 +534,9 @@ background-size: cover;
 }
 .send-info {
   margin-left: 16px; 
+}
+.footer-email {
+  margin-left: auto;
 }
 .backdrop {
   width: 100%;

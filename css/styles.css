@@ -189,12 +189,13 @@ background-size: cover;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  margin-right: 24px;
 }
 .icon-list {
   width: 64;
   height: 64;
 }
-.description-main {
+.container-description-main {
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -415,7 +416,6 @@ background-size: cover;
 .container-logo-box {
   display: flex; 
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-logo-box {
   margin-right: 120px; 
@@ -442,7 +442,7 @@ background-size: cover;
 }
 
 .logo-text {
-  width: 264px;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

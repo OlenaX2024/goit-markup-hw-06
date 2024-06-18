@@ -698,6 +698,12 @@ background-size: cover;
   justify-content: center; 
   fill: transparent; 
 }
+.input-check:checked>.label-part {
+  background-color: #404bbf;
+  border: none; 
+  fill: #F4F4FD;
+
+}
 .label-part {
   fill: #4D5AE5; 
   background-color: #F4F4FD; 

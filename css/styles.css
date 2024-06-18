@@ -190,6 +190,7 @@ background-size: cover;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
   margin-right: 24px;
+  margin: 0 auto;
 }
 .icon-list {
   width: 64;
@@ -551,6 +552,14 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+} 
+.backdrop .is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 .window {
   position: absolute;

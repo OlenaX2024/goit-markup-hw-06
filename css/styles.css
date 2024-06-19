@@ -697,13 +697,10 @@ background-size: cover;
   justify-content: center; 
   fill: transparent; 
 }
-.input-check:checked>.label-part {
+.input-check:checked+.label-privacy>.label-part {
   background-color: #404bbf;
   border: none; 
   fill: #F4F4FD;
-}
-.input-check {
-  visually-hidden;
 }
 .label-part {
   fill: #4D5AE5; 

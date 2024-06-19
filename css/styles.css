@@ -596,8 +596,8 @@ background-size: cover;
   background-color: #404bbf; 
   border: none; 
 }
-.window:hover>.icon-window,
-.window:focus>.icon-window {
+.window-button>.icon-window,
+.window-button>.icon-window {
   fill: #ffffff;
 }
 .send-info {

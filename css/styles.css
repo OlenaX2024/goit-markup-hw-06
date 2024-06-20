@@ -584,7 +584,8 @@ background-size: cover;
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  border-radius: 2px;
+  fill: #2E2F42;
 }
 .window-button:hover,
 .window-button:focus {
@@ -593,7 +594,7 @@ background-size: cover;
 }
 .window-button>.icon-window,
 .window-button>.icon-window {
-  fill: #ffffff;
+  fill: #2E2F42;
 }
 .send-info {
   margin-left: 16px; 
@@ -704,7 +705,7 @@ background-size: cover;
   justify-content: center; 
   fill: transparent; 
 }
-.input-check:checkedn + .label-privacy>.label-part {
+.input-check:checked + .label-privacy>.label-part {
   background-color: #404bbf;
   border: none; 
   fill: #F4F4FD;

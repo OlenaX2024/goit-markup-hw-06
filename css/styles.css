@@ -575,7 +575,7 @@ background-size: cover;
   right: 24px;
   width: 24px; 
   height: 24px;
-  border-radius: 50%; 
+  border-radius: 50%;  
   display: flex;
   align-items: center; 
   justify-content: center;
@@ -590,7 +590,8 @@ background-size: cover;
 .window-button:hover,
 .window-button:focus {
   background-color: #404bbf; 
-  border: none; 
+  border: none;  
+  fill: #ffffff;
 }
 .window-button>.icon-window,
 .window-button>.icon-window {

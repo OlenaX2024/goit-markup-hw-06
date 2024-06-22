@@ -191,10 +191,7 @@ background-size: cover;
   width: 64;
   height: 64;
 }
-.container-description-main {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
+
 .description-icons{
   display: flex; 
   align-items: center; 
@@ -226,9 +223,12 @@ background-size: cover;
 }
 .description-title {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
 }
 .description-text {
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -281,6 +281,7 @@ background-size: cover;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455; 
+  margin-bottom: 8px;
 }
 .team-link-list { 
   display: flex; 
@@ -335,7 +336,6 @@ background-size: cover;
 .apps-item {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .apps-item:hover {
   transform: translateY(0%); 
@@ -373,14 +373,10 @@ background-size: cover;
 .apps-text:hover {
   transform: translateY(0%);
 }
-.apps-list:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 .banking-app-one {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .apps-picture {
@@ -408,7 +404,7 @@ background-size: cover;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;  
- }
+}
 .container-logo-box {
   display: flex; 
   align-items: baseline;
@@ -416,7 +412,7 @@ background-size: cover;
 .footer-logo-box {
   margin-right: 120px; 
 }
-.logo-link {
+.footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;

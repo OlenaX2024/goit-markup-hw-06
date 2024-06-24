@@ -728,3 +728,55 @@ ol {
   border-radius: 4px;
   padding: 16px 32px;
 }
+.backdrop-menu {
+  max-width: 320px;
+  background-color: #fff;
+}
+.window-menu {
+  max-width: 320px;
+}
+.model-menu {
+  padding: 24px 105px 168px 16px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 168px;
+  margin-top: 72px;
+  margin-left: 16px;
+}
+.menu-link {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.menu-link:hover {
+  color: #404bbf;
+}
+.address-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+  margin-right: 111px;
+  margin-left: 16px;
+}
+.menu-address-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.menu-address-link:hover {
+  color: #404bbf;
+}
+.social-menu {
+  margin: 0 24px 40px 16px;
+}

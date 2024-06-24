@@ -78,11 +78,6 @@
     gap: 72px;
   }
 
-  .team-list {
-  }
-  .team-img {
-  }
-
   .section-apps {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -107,12 +102,6 @@
   }
   .footer-logo {
     padding: 96px 0;
-  }
-  .footer-logo.container {
-  }
-  .footer-logo-box {
-  }
-  .footer-logo-link {
   }
   .logo-text {
     margin-top: 16px;
@@ -203,8 +192,6 @@
   .section-button {
     max-width: 768px;
   }
-  .section-description {
-  }
 
   .description-item {
     width: calc((100% - 24px) / 2);
@@ -236,7 +223,7 @@
   .footer-logo {
     padding: 100px 0;
   }
-  .footer-contaner {
+  .footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -251,7 +238,7 @@
   .team-photo {
     width: 584px;
   }
-  .footer-contaner {
+  .footer-container {
     width: 584px;
   }
 }
@@ -346,7 +333,7 @@
     width: 408px;
     min-height: 584px;
   }
-  .footer-contaner {
+  .footer-container {
     flex-wrap: nowrap;
     gap: unset;
   }

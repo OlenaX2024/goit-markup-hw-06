@@ -18,6 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css">
   </head>
 <header class="logo-nav">
     <div class="container logo-header">
@@ -39,6 +40,10 @@
           </li>
         </ul>
       </address>
+      <button class="menu-btn" type="button">
+        <svg width="24" height="24"> 
+          <use href="./images/icons.svg#icon-menu"></use>
+      </svg></button>
     </div>
   </header>
   <main>
@@ -53,7 +58,7 @@
         <h2 class="description-h2">Core values</h2>
           <ul class="description-list">
           <li class="description-item"> 
-            <div class="container description-icons">
+            <div class="description-icons">
             <svg 
             class="icon-list" 
             width="64"
@@ -69,7 +74,7 @@
             </p>
           </li>
           <li class="description-item">
-            <div class="container description-icons">
+            <div class="description-icons">
               <svg class="icon-list"
                 width="64"
                 height="64">
@@ -84,7 +89,7 @@
             </p>
           </li>
           <li class="description-item">
-            <div class="container description-icons">
+            <div class="description-icons">
               <svg
               class="icon-list" 
               width="64"
@@ -100,7 +105,7 @@
             </p>
           </li>
           <li class="description-item">
-            <div class="container description-icons">
+            <div class="description-icons">
               <svg  
                 class="icon-list"
                 width="64"
@@ -124,7 +129,8 @@
         <ul class="team-img-list">
           <li class="team-list">
             <img
-              class="team-img"
+              class="team-img" 
+              srcset="./images/images1.jpg 1x, ./images/mark@2x.jpg 2x"
               src="./images/images1.jpg"
               alt="Product Designer"
               width="264"
@@ -439,9 +445,8 @@
       </div>
     </section>
   </main>
-
   <footer class="footer-logo">
-    <div class="container-logo-box container">
+    <div class="container footer-contaner">
       <div class="footer-logo-box"> 
       <a class="footer-logo-link" href="./index.html"
         >Web<span class="logo-part">Studio</span></a>
@@ -519,9 +524,9 @@
     </form>
   </div>
   </div>
-  </footer> 
+  </footer>
 
-  <div class="backdrop is-open">
+  <!--<div class="backdrop is-open">
     <div class="window">
       <button class="window-button" type="button">
         <svg 
@@ -624,5 +629,6 @@
         </form>
       </div>
     </div>
+  </div>-->
   </body>
 </html>

@@ -21,6 +21,11 @@
         ),
         url(../images/hero-mob@2x.jpg);
     }
+    .backdrop-menu.is-open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
   }
   .list-link {
     display: none;

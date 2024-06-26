@@ -731,6 +731,7 @@ ol {
 .backdrop-menu {
   max-width: 320px;
   background-color: #fff;
+  display: none;
 }
 .window-menu {
   max-width: 320px;

@@ -118,6 +118,9 @@
   .window {
     width: 288px;
   }
+  .backdrop-menu {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   .logo-nav {
@@ -148,7 +151,7 @@
     margin: 16px auto 0 auto;
   }
   .backdrop-menu {
-  
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -240,6 +243,9 @@
     display: flex;
     gap: 24px;
   }
+  .backdrop-menu {
+    display: block;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .team-photo {
@@ -247,6 +253,9 @@
   }
   .footer-container {
     width: 584px;
+  }
+  .backdrop-menu {
+    display: block;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -268,6 +277,9 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-desk.jpg);
+  }
+  .backdrop-menu {
+    display: block;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
@@ -346,5 +358,8 @@
   }
   .container-footer-social {
     margin-right: 80px;
+  }
+  .backdrop-menu {
+    display: block;
   }
 }

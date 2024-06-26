@@ -293,7 +293,7 @@
     font-size: 56px;
   }
   .section-description {
-    width: 1128px;
+    max-width: 1128px;
     padding-top: 120px;
     padding-bottom: 120px;
   }

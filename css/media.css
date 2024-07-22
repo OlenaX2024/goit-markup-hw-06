@@ -244,6 +244,24 @@
   .backdrop-menu {
     display: none;
   }
+  .window {
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  .checkbox-button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin-bottom: 24px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .team-photo {

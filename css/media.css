@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px), (max-width: 767px) {
   .container {
     width: 320px;
     padding-left: 16px;
@@ -115,7 +115,7 @@
   .backdrop .container {
     width: 320px;
   }
-  .window {
+  .backdrop-menu-container {
     width: 288px;
   }
   .backdrop-menu {
@@ -325,6 +325,7 @@
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+    margin: o auto;
   }
   .description-item {
     width: calc((100% - 72px) / 4);

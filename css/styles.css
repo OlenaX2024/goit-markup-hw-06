@@ -138,6 +138,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: o auto;
 }
 
 .button-title {
@@ -217,6 +218,7 @@ ol {
 }
 .description-title {
   margin-bottom: 8px;
+  /*padding-bottom: 8px;*/
   /*font-weight: 500;*/
   /*font-size: 20px;*/
 }

@@ -55,7 +55,7 @@
   }
   .section-description {
     padding-top: 96px;
-    padding-bottom: 96px;
+    margin-bottom: 96px;
   }
   .description-icons {
     display: none;
@@ -79,11 +79,11 @@
   .description-text {
     font-weight: 500;
   }
+  .section-team {
+    padding-top: 96px;
+  }
   .our-team-title {
     font-weight: 700;
-  }
-  .team-list {
-    width: 100%;
   }
   .team-img-list {
     display: flex;

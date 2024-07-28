@@ -774,6 +774,9 @@ ol {
   margin-bottom: auto;
 }
 .window-menu {
+  margin-bottom: auto;
+}
+.menu-nav {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -820,7 +823,7 @@ ol {
 .menu-link:hover {
   color: #404bbf;
 }
-.address-menu {
+.menu-address {
   display: flex;
   flex-direction: column;
   gap: 24px;

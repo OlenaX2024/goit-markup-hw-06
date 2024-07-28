@@ -640,6 +640,7 @@
     </div>
 
   <div class="backdrop-menu is-open">
+    <div class="container menu-modal-container">
       <button class="window-button-menu" type="button">
         <svg 
         class="icon-window"
@@ -648,26 +649,28 @@
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
       </button>
-      <form class="modal-menu">
-        <div class="backdrop-menu-container">
       <div class="window-menu">
-    <label class="menu-list">
+    <ul class="menu-nav"> 
+        <li class="menu-list">
           <a class="menu-link" href="./index.html">Studio</a>
-        </label>
-        <label class="menu-list">
+        </li>
+        <li class="menu-list">
           <a class="menu-link" href="Portfolio">Portfolio</a>
-          </label>
-          <label class="menu-list">
+          </li>
+          <li class="menu-list">
           <a class="menu-link" href="Contacts">Contacts</a>
-        </label>
+        </li>
+    </ul>
       </div>
       <div class="address-menu">
-          <label class="menu-list"> 
+        <ul class="menu-address">
+          <li class="menu-list"> 
             <a class="menu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </label>
-          <label class="menu-list">
+          <li>
+          <li class="menu-list">
             <a class="menu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </label>
+          </li>
+          </ul>  
         </div>
         <div class="container-social-menu">
     <ul class="menu-link-social">
@@ -714,7 +717,6 @@
     </ul>
     </div>
         </div>
-      </form>
       </div>
   </body>
 </html>

@@ -27,6 +27,17 @@
       pointer-events: auto;
     }
   }
+  .menu-modal-container {
+    position: relative;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .window-menu {
+    margin-bottom: auto;
+  }
   .window {
     width: 288px;
   }

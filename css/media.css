@@ -21,7 +21,7 @@
         ),
         url(../images/hero-mob@2x.jpg);
     }
-    .backdrop-menu.is-open {
+    .modal-menu.is-open {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
@@ -134,10 +134,10 @@
   .backdrop .container {
     width: 320px;
   }
-  .backdrop-menu-container {
+  .modal-menu-container {
     width: 288px;
   }
-  .backdrop-menu {
+  .modal-menu {
     display: block;
   }
 }
@@ -145,35 +145,38 @@
   .logo-nav {
     padding: 16px 0;
   }
-  .footer-logo-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 0 72px 0;
-  }
-  .container-footer-social {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 0 72px 0;
-  }
-  .footer-social-link {
-    justify-content: center;
-  }
-  .footer-information {
-    text-align: center;
-  }
-  .form-input {
-    width: 288px;
-  }
-  .form-button {
-    margin: 16px auto 0 auto;
-  }
+}
+.footer-logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 72px 0;
+}
+.container-footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 72px 0;
+}
+.footer-social-link {
+  justify-content: center;
+}
+.footer-information {
+  text-align: center;
+}
+.form-input {
+  width: 288px;
+}
+.form-button {
+  margin: 16px auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+  }
+  .section-button {
+    margin: 0 auto;
   }
   .section-button {
     padding: 112px 0;
@@ -260,7 +263,7 @@
     display: flex;
     gap: 24px;
   }
-  .backdrop-menu {
+  .modal-menu {
     display: none;
   }
   .window {
@@ -389,7 +392,7 @@
   .container-footer-social {
     margin-right: 80px;
   }
-  .backdrop-menu {
+  .modal-menu {
     display: none;
   }
 }

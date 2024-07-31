@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px), (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 320px;
     padding-left: 16px;
@@ -21,20 +21,21 @@
         ),
         url(../images/hero-mob@2x.jpg);
     }
-    /*.modal-menu.is-open {
+    .modal-menu.is-open {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
-    }*/
+    }
   }
-  /*.menu-modal-container {
+
+  .menu-modal-container {
     position: relative;
     padding-top: 72px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     height: 100%;
-  }*/
+  }
   .window-menu {
     margin-bottom: auto;
   }
@@ -140,35 +141,36 @@
   .modal-menu {
     display: block;
   }
-}
-@media screen and (max-width: 767px) {
-  .logo-nav {
-    padding: 16px 0;
+
+  @media screen and (max-width: 767px) {
+    .logo-nav {
+      padding: 16px 0;
+    }
   }
-}
-.footer-logo-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 0 72px 0;
-}
-.container-footer-social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 0 72px 0;
-}
-.footer-social-link {
-  justify-content: center;
-}
-.footer-information {
-  text-align: center;
-}
-.form-input {
-  width: 288px;
-}
-.form-button {
-  /* margin: 16px auto 0 auto;*/
+  .footer-logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 72px 0;
+  }
+  .container-footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 72px 0;
+  }
+  .footer-social-link {
+    justify-content: center;
+  }
+  .footer-information {
+    text-align: center;
+  }
+  .form-input {
+    width: 288px;
+  }
+  .form-button {
+    margin: 16px auto 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -222,7 +224,10 @@
   .section-button {
     max-width: 768px;
   }
-
+  .section-description {
+    padding-top: 96px;
+    margin-bottom: 96px;
+  }
   .description-item {
     width: calc((100% - 24px) / 2);
   }
@@ -233,6 +238,9 @@
   }
   .description-title {
     text-align: left;
+  }
+  .description-icons {
+    display: none;
   }
   .team-img-list {
     flex-direction: row;

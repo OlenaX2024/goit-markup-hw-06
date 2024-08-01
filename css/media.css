@@ -228,6 +228,17 @@
     padding-top: 96px;
     margin-bottom: 96px;
   }
+  .description-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  .description-text {
+    font-weight: 500;
+  }
   .description-item {
     width: calc((100% - 24px) / 2);
   }

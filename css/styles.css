@@ -782,9 +782,9 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-top: 24px;
+  /* margin-top: 24px;
   margin-right: 105px;
-  margin-bottom: 168px;
+  margin-bottom: 168px;*/
 }
 .window-button-menu:hover,
 .window-button-menu:focus {
@@ -826,13 +826,15 @@ ol {
   color: #404bbf;
 }
 .address-menu {
+  margin-bottom: 48px;
+  /* margin-right: 111px;
+  width: 193px;
+  height: 72px;*/
+}
+.menu-address-items {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
-  margin-right: 111px;
-  width: 193px;
-  height: 72px;
 }
 .menu-address-link {
   font-family: var(--font-family);
